@@ -1664,7 +1664,7 @@
         "type": "subroutineBlock",
         "id": "W16xF}1@k~$*8Ef:=1Or",
         "x": 0,
-        "y": 4125,
+        "y": 4133,
         "extraState": {
           "subroutineName": "displayDiceMessage",
           "parameters": []
@@ -2088,26 +2088,43 @@
                   "inputs": {
                     "VALUE-0": {
                       "block": {
-                        "type": "GreaterThan",
-                        "id": ",+Z/4yQtEctN?T38_[gd",
+                        "type": "And",
+                        "id": "!z/}Mbh?lCRl;J1|U1Vk",
                         "inputs": {
                           "VALUE-0": {
                             "block": {
-                              "type": "GetVariable",
-                              "id": "2-#6h%vR%eIad^|.)4:}",
+                              "type": "Equals",
+                              "id": "]WYRk+QCN3Smq!6`^rZ$",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
-                                    "type": "variableReferenceBlock",
-                                    "id": "#D8a$g_chB%P`1QCu_bp",
-                                    "extraState": {
-                                      "isObjectVar": false
-                                    },
-                                    "fields": {
-                                      "OBJECTTYPE": "Global",
-                                      "VAR": {
-                                        "id": ":scq[Ii|w]r6L){cj+x{"
+                                    "type": "GetVariable",
+                                    "id": "C_$VgE#3k!GBc)2r4Q26",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "variableReferenceBlock",
+                                          "id": "OBCwnjx^3L+104vG|lCa",
+                                          "extraState": {
+                                            "isObjectVar": false
+                                          },
+                                          "fields": {
+                                            "OBJECTTYPE": "Global",
+                                            "VAR": {
+                                              "id": "DacXkGp{TrG~[d%lBj!z"
+                                            }
+                                          }
+                                        }
                                       }
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "jaP?7Edi=yE6MJUs;wfM",
+                                    "fields": {
+                                      "NUM": 0
                                     }
                                   }
                                 }
@@ -2116,10 +2133,41 @@
                           },
                           "VALUE-1": {
                             "block": {
-                              "type": "Number",
-                              "id": "H/[YkmWPd[J@B6_BqDPh",
-                              "fields": {
-                                "NUM": 0
+                              "type": "GreaterThan",
+                              "id": ",+Z/4yQtEctN?T38_[gd",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "GetVariable",
+                                    "id": "2-#6h%vR%eIad^|.)4:}",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "variableReferenceBlock",
+                                          "id": "#D8a$g_chB%P`1QCu_bp",
+                                          "extraState": {
+                                            "isObjectVar": false
+                                          },
+                                          "fields": {
+                                            "OBJECTTYPE": "Global",
+                                            "VAR": {
+                                              "id": ":scq[Ii|w]r6L){cj+x{"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "H/[YkmWPd[J@B6_BqDPh",
+                                    "fields": {
+                                      "NUM": 0
+                                    }
+                                  }
+                                }
                               }
                             }
                           }
@@ -2175,7 +2223,7 @@
         "type": "subroutineBlock",
         "id": "ce:3d4$jA2`qIG?}rzrE",
         "x": 0,
-        "y": 4616,
+        "y": 4624,
         "extraState": {
           "subroutineName": "displayPrepareMessage",
           "parameters": []
