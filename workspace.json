@@ -5952,21 +5952,38 @@
                       "inputs": {
                         "VALUE-0": {
                           "block": {
-                            "type": "GetVariable",
-                            "id": "yzt`nL1MTqo;%a2[[b[w",
+                            "type": "Equals",
+                            "id": ";^zaT/mQ%0`q9nJ;WVmO",
                             "inputs": {
                               "VALUE-0": {
                                 "block": {
-                                  "type": "variableReferenceBlock",
-                                  "id": "RH0dcjIn%pT~i]n0BzT0",
-                                  "extraState": {
-                                    "isObjectVar": false
-                                  },
-                                  "fields": {
-                                    "OBJECTTYPE": "Global",
-                                    "VAR": {
-                                      "id": "h`5}tY5kN0e^v%Wa@!F$"
+                                  "type": "GetVariable",
+                                  "id": "s%RVpF/t9;;ku*bH*XGD",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "variableReferenceBlock",
+                                        "id": "ALon4UAD.IB,,`JDv)Yl",
+                                        "extraState": {
+                                          "isObjectVar": false
+                                        },
+                                        "fields": {
+                                          "OBJECTTYPE": "Global",
+                                          "VAR": {
+                                            "id": "VevQJTl:.GsJFtCB7cxJ"
+                                          }
+                                        }
+                                      }
                                     }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "oO1,G!qGpRR39qQDX!2[",
+                                  "fields": {
+                                    "NUM": 1
                                   }
                                 }
                               }
@@ -23893,21 +23910,38 @@
               "inputs": {
                 "VALUE-0": {
                   "block": {
-                    "type": "GetVariable",
-                    "id": "~R[zeVuSL4].9N^N-SXr",
+                    "type": "Equals",
+                    "id": ";+t}lzBO$i0D$l17[+~c",
                     "inputs": {
                       "VALUE-0": {
                         "block": {
-                          "type": "variableReferenceBlock",
-                          "id": "~oR:$P|I/*QW3RZ*+Zf8",
-                          "extraState": {
-                            "isObjectVar": false
-                          },
-                          "fields": {
-                            "OBJECTTYPE": "Global",
-                            "VAR": {
-                              "id": "h`5}tY5kN0e^v%Wa@!F$"
+                          "type": "GetVariable",
+                          "id": "ioauf[H5B@Qk9WA0ZMoa",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "Y5d3[[yprC40NU_t8@Af",
+                                "extraState": {
+                                  "isObjectVar": false
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "Global",
+                                  "VAR": {
+                                    "id": "VevQJTl:.GsJFtCB7cxJ"
+                                  }
+                                }
+                              }
                             }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "Number",
+                          "id": "XDU$BeV4,awI@k|1!8gi",
+                          "fields": {
+                            "NUM": 1
                           }
                         }
                       }
