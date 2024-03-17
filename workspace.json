@@ -1668,83 +1668,83 @@
                                                     },
                                                     "next": {
                                                       "block": {
-                                                        "type": "EnablePlayerSpawning",
-                                                        "id": "3jqtgqFAnm@ioJ@F$nkn",
+                                                        "type": "If",
+                                                        "id": "ZpmyNCy?ObYK|uDuzy]Y",
+                                                        "extraState": {},
                                                         "inputs": {
                                                           "VALUE-0": {
                                                             "block": {
-                                                              "type": "Boolean",
-                                                              "id": "CJe8Eq:j]@3^bC8owEr%",
+                                                              "type": "Equals",
+                                                              "id": "Q|I*bB0HBb@x9fW@s!,t",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "GetVariable",
+                                                                    "id": "TWxORt1$RSTQe4,To}P^",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "variableReferenceBlock",
+                                                                          "id": "Ed;.~Cb5#6yJ,8/`(dTB",
+                                                                          "extraState": {
+                                                                            "isObjectVar": false
+                                                                          },
+                                                                          "fields": {
+                                                                            "OBJECTTYPE": "Global",
+                                                                            "VAR": {
+                                                                              "id": "VevQJTl:.GsJFtCB7cxJ"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "VALUE-1": {
+                                                                  "block": {
+                                                                    "type": "Number",
+                                                                    "id": "Vq7trz=fY3~|4BuD|E=g",
+                                                                    "fields": {
+                                                                      "NUM": 0
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "DO": {
+                                                            "block": {
+                                                              "type": "subroutineInstanceBlock",
+                                                              "id": "%:FPa.l%/-yTh8imxSC#",
+                                                              "extraState": {
+                                                                "subroutineName": "cq_init",
+                                                                "parameters": []
+                                                              },
                                                               "fields": {
-                                                                "BOOL": "TRUE"
+                                                                "SUBROUTINE_NAME": "cq_init"
                                                               }
                                                             }
                                                           }
                                                         },
                                                         "next": {
                                                           "block": {
-                                                            "type": "If",
-                                                            "id": "ZpmyNCy?ObYK|uDuzy]Y",
-                                                            "extraState": {},
-                                                            "inputs": {
-                                                              "VALUE-0": {
-                                                                "block": {
-                                                                  "type": "Equals",
-                                                                  "id": "Q|I*bB0HBb@x9fW@s!,t",
-                                                                  "inputs": {
-                                                                    "VALUE-0": {
-                                                                      "block": {
-                                                                        "type": "GetVariable",
-                                                                        "id": "TWxORt1$RSTQe4,To}P^",
-                                                                        "inputs": {
-                                                                          "VALUE-0": {
-                                                                            "block": {
-                                                                              "type": "variableReferenceBlock",
-                                                                              "id": "Ed;.~Cb5#6yJ,8/`(dTB",
-                                                                              "extraState": {
-                                                                                "isObjectVar": false
-                                                                              },
-                                                                              "fields": {
-                                                                                "OBJECTTYPE": "Global",
-                                                                                "VAR": {
-                                                                                  "id": "VevQJTl:.GsJFtCB7cxJ"
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    },
-                                                                    "VALUE-1": {
-                                                                      "block": {
-                                                                        "type": "Number",
-                                                                        "id": "Vq7trz=fY3~|4BuD|E=g",
-                                                                        "fields": {
-                                                                          "NUM": 0
-                                                                        }
+                                                            "type": "ResetRoundTime",
+                                                            "id": "(R~sak[7)OIA=IfR?)Zc",
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "EnablePlayerSpawning",
+                                                                "id": "3jqtgqFAnm@ioJ@F$nkn",
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "Boolean",
+                                                                      "id": "CJe8Eq:j]@3^bC8owEr%",
+                                                                      "fields": {
+                                                                        "BOOL": "TRUE"
                                                                       }
                                                                     }
                                                                   }
                                                                 }
-                                                              },
-                                                              "DO": {
-                                                                "block": {
-                                                                  "type": "subroutineInstanceBlock",
-                                                                  "id": "%:FPa.l%/-yTh8imxSC#",
-                                                                  "extraState": {
-                                                                    "subroutineName": "cq_init",
-                                                                    "parameters": []
-                                                                  },
-                                                                  "fields": {
-                                                                    "SUBROUTINE_NAME": "cq_init"
-                                                                  }
-                                                                }
-                                                              }
-                                                            },
-                                                            "next": {
-                                                              "block": {
-                                                                "type": "ResetRoundTime",
-                                                                "id": "(R~sak[7)OIA=IfR?)Zc"
                                                               }
                                                             }
                                                           }
