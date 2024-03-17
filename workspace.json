@@ -6484,7 +6484,7 @@
         "type": "subroutineBlock",
         "id": "mZVCnv?b^4tiZcr^dZf}",
         "x": 0,
-        "y": 13806,
+        "y": 13197,
         "extraState": {
           "subroutineName": "cnc_init",
           "parameters": []
@@ -6657,7 +6657,7 @@
         "type": "subroutineBlock",
         "id": "r6o0ZZ%ugf2BB@V-]-6$",
         "x": 0,
-        "y": 13197,
+        "y": 14161,
         "extraState": {
           "subroutineName": "cnc_resetHacker",
           "parameters": [
@@ -8137,7 +8137,7 @@
         "type": "subroutineBlock",
         "id": "q[4%+MN9x(?VN*`JW[3y",
         "x": 0,
-        "y": 15049,
+        "y": 13718,
         "extraState": {
           "subroutineName": "cnc_initPlayerVariables",
           "parameters": [
@@ -19116,7 +19116,7 @@
         "type": "subroutineBlock",
         "id": ";NFKLA|7uk~Om$PcC([H",
         "x": 0,
-        "y": 14327,
+        "y": 14770,
         "extraState": {
           "subroutineName": "cnc_updateCurrentMcom",
           "parameters": [
@@ -19772,7 +19772,7 @@
         "type": "subroutineBlock",
         "id": "x$AuTfpK!ygCqx[3=)3m",
         "x": 0,
-        "y": 14767,
+        "y": 15210,
         "extraState": {
           "subroutineName": "cnc_removeTickets",
           "parameters": [
