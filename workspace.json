@@ -6,7 +6,7 @@
         "type": "modBlock",
         "id": "DiJ4dzp[LfaiH9o?L^.R",
         "x": 0,
-        "y": 0,
+        "y": 209,
         "inputs": {
           "RULES": {
             "block": {
@@ -773,11 +773,11 @@
                             "type": "subroutineInstanceBlock",
                             "id": "Ql%uO[#veswl@Ks_ENZF",
                             "extraState": {
-                              "subroutineName": "executeEverySecond",
+                              "subroutineName": "common_executeEverySecond",
                               "parameters": []
                             },
                             "fields": {
-                              "SUBROUTINE_NAME": "executeEverySecond"
+                              "SUBROUTINE_NAME": "common_executeEverySecond"
                             }
                           }
                         }
@@ -873,11 +873,11 @@
                                 "type": "subroutineInstanceBlock",
                                 "id": "?qos{4%u`XVum(NN9F??",
                                 "extraState": {
-                                  "subroutineName": "executeEverySecond",
+                                  "subroutineName": "common_executeEverySecond",
                                   "parameters": []
                                 },
                                 "fields": {
-                                  "SUBROUTINE_NAME": "executeEverySecond"
+                                  "SUBROUTINE_NAME": "common_executeEverySecond"
                                 }
                               }
                             }
@@ -2150,11 +2150,11 @@
                                             "type": "subroutineInstanceBlock",
                                             "id": "Mw=q9+X,Gu=HQ*tW$o~L",
                                             "extraState": {
-                                              "subroutineName": "tick",
+                                              "subroutineName": "common_tick",
                                               "parameters": []
                                             },
                                             "fields": {
-                                              "SUBROUTINE_NAME": "tick"
+                                              "SUBROUTINE_NAME": "common_tick"
                                             },
                                             "next": {
                                               "block": {
@@ -2378,11 +2378,11 @@
                                                 "type": "subroutineInstanceBlock",
                                                 "id": "qTua(d![J:*l=z;@ETji",
                                                 "extraState": {
-                                                  "subroutineName": "tick",
+                                                  "subroutineName": "common_tick",
                                                   "parameters": []
                                                 },
                                                 "fields": {
-                                                  "SUBROUTINE_NAME": "tick"
+                                                  "SUBROUTINE_NAME": "common_tick"
                                                 },
                                                 "next": {
                                                   "block": {
@@ -5754,13 +5754,13 @@
         "type": "subroutineBlock",
         "id": "D`1V6tGPqZ`/~FvU]X[+",
         "x": 0,
-        "y": 11544,
+        "y": 11914,
         "extraState": {
-          "subroutineName": "executeEverySecond",
+          "subroutineName": "common_executeEverySecond",
           "parameters": []
         },
         "fields": {
-          "SUBROUTINE_NAME": "executeEverySecond"
+          "SUBROUTINE_NAME": "common_executeEverySecond"
         },
         "inputs": {
           "ACTIONS": {
@@ -6384,7 +6384,7 @@
         "type": "subroutineBlock",
         "id": "X*VJwcjIz:Z~5w68+TsI",
         "x": 0,
-        "y": 12813,
+        "y": 13183,
         "extraState": {
           "subroutineName": "cq_init",
           "parameters": []
@@ -6484,7 +6484,7 @@
         "type": "subroutineBlock",
         "id": "mZVCnv?b^4tiZcr^dZf}",
         "x": 0,
-        "y": 13197,
+        "y": 13567,
         "extraState": {
           "subroutineName": "cnc_init",
           "parameters": []
@@ -6495,50 +6495,31 @@
         "inputs": {
           "ACTIONS": {
             "block": {
-              "type": "SetVariable",
-              "id": "V9Zl^8(tx7Mz9%{wY|oz",
-              "inputs": {
-                "VALUE-0": {
-                  "block": {
-                    "type": "variableReferenceBlock",
-                    "id": "DzL0lc0;Jy^?GN@.0?iH",
-                    "extraState": {
-                      "isObjectVar": false
-                    },
-                    "fields": {
-                      "OBJECTTYPE": "Global",
-                      "VAR": {
-                        "id": "CVF.L3Kz4B:XbsBSlTJk"
-                      }
-                    }
-                  }
-                },
-                "VALUE-1": {
-                  "block": {
-                    "type": "Number",
-                    "id": "jOy}Ld1ME`46Y#vK0qD3",
-                    "fields": {
-                      "NUM": 2042
-                    }
-                  }
-                }
+              "type": "subroutineInstanceBlock",
+              "id": "O90~C$3[4G?9I7w%AdrN",
+              "extraState": {
+                "subroutineName": "common_disableCapturePoints",
+                "parameters": []
+              },
+              "fields": {
+                "SUBROUTINE_NAME": "common_disableCapturePoints"
               },
               "next": {
                 "block": {
                   "type": "SetVariable",
-                  "id": "jj;YZA!J2zSV_S~(og2[",
+                  "id": "V9Zl^8(tx7Mz9%{wY|oz",
                   "inputs": {
                     "VALUE-0": {
                       "block": {
                         "type": "variableReferenceBlock",
-                        "id": "(=]*jzLkED-VW(wBh,e(",
+                        "id": "DzL0lc0;Jy^?GN@.0?iH",
                         "extraState": {
                           "isObjectVar": false
                         },
                         "fields": {
                           "OBJECTTYPE": "Global",
                           "VAR": {
-                            "id": "IxK1fROD%cFd]hXHkg1e"
+                            "id": "CVF.L3Kz4B:XbsBSlTJk"
                           }
                         }
                       }
@@ -6546,9 +6527,9 @@
                     "VALUE-1": {
                       "block": {
                         "type": "Number",
-                        "id": "DV7!*(=bot#Bg6-L*4~7",
+                        "id": "jOy}Ld1ME`46Y#vK0qD3",
                         "fields": {
-                          "NUM": 3
+                          "NUM": 2042
                         }
                       }
                     }
@@ -6556,19 +6537,19 @@
                   "next": {
                     "block": {
                       "type": "SetVariable",
-                      "id": "RHHwGZ05Z!hN]6kR?9-;",
+                      "id": "jj;YZA!J2zSV_S~(og2[",
                       "inputs": {
                         "VALUE-0": {
                           "block": {
                             "type": "variableReferenceBlock",
-                            "id": "-@Y;Wj1g48#3s8zt_}su",
+                            "id": "(=]*jzLkED-VW(wBh,e(",
                             "extraState": {
                               "isObjectVar": false
                             },
                             "fields": {
                               "OBJECTTYPE": "Global",
                               "VAR": {
-                                "id": "4yDkLd8y^[yYv!n]e2%n"
+                                "id": "IxK1fROD%cFd]hXHkg1e"
                               }
                             }
                           }
@@ -6576,9 +6557,9 @@
                         "VALUE-1": {
                           "block": {
                             "type": "Number",
-                            "id": "z/.~cuJ@^v(!M$*CVW)M",
+                            "id": "DV7!*(=bot#Bg6-L*4~7",
                             "fields": {
-                              "NUM": 30
+                              "NUM": 3
                             }
                           }
                         }
@@ -6586,19 +6567,19 @@
                       "next": {
                         "block": {
                           "type": "SetVariable",
-                          "id": "`so~G6Ln7-[HX-h+B)FV",
+                          "id": "RHHwGZ05Z!hN]6kR?9-;",
                           "inputs": {
                             "VALUE-0": {
                               "block": {
                                 "type": "variableReferenceBlock",
-                                "id": "Q%{Swffd,sp/pDOPgg_Q",
+                                "id": "-@Y;Wj1g48#3s8zt_}su",
                                 "extraState": {
                                   "isObjectVar": false
                                 },
                                 "fields": {
                                   "OBJECTTYPE": "Global",
                                   "VAR": {
-                                    "id": "]u0^Tu+KOx1yzN8T[;Gl"
+                                    "id": "4yDkLd8y^[yYv!n]e2%n"
                                   }
                                 }
                               }
@@ -6606,38 +6587,70 @@
                             "VALUE-1": {
                               "block": {
                                 "type": "Number",
-                                "id": "9Kny8H([tI6J7E}*%Waz",
+                                "id": "z/.~cuJ@^v(!M$*CVW)M",
                                 "fields": {
-                                  "NUM": 350
+                                  "NUM": 30
                                 }
                               }
                             }
                           },
                           "next": {
                             "block": {
-                              "type": "SetRoundTimeLimit",
-                              "id": ";E%@V^7YDuGQQGy;-wX+",
+                              "type": "SetVariable",
+                              "id": "`so~G6Ln7-[HX-h+B)FV",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
-                                    "type": "Number",
-                                    "id": "Ml!jknq!$X=nYCs$/p;Q",
+                                    "type": "variableReferenceBlock",
+                                    "id": "Q%{Swffd,sp/pDOPgg_Q",
+                                    "extraState": {
+                                      "isObjectVar": false
+                                    },
                                     "fields": {
-                                      "NUM": 1200
+                                      "OBJECTTYPE": "Global",
+                                      "VAR": {
+                                        "id": "]u0^Tu+KOx1yzN8T[;Gl"
+                                      }
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "9Kny8H([tI6J7E}*%Waz",
+                                    "fields": {
+                                      "NUM": 350
                                     }
                                   }
                                 }
                               },
                               "next": {
                                 "block": {
-                                  "type": "subroutineInstanceBlock",
-                                  "id": "AfSDVuA|d7{pY1dM2Wb1",
-                                  "extraState": {
-                                    "subroutineName": "cnc_internalInit",
-                                    "parameters": []
+                                  "type": "SetRoundTimeLimit",
+                                  "id": ";E%@V^7YDuGQQGy;-wX+",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "Ml!jknq!$X=nYCs$/p;Q",
+                                        "fields": {
+                                          "NUM": 1200
+                                        }
+                                      }
+                                    }
                                   },
-                                  "fields": {
-                                    "SUBROUTINE_NAME": "cnc_internalInit"
+                                  "next": {
+                                    "block": {
+                                      "type": "subroutineInstanceBlock",
+                                      "id": "AfSDVuA|d7{pY1dM2Wb1",
+                                      "extraState": {
+                                        "subroutineName": "cnc_internalInit",
+                                        "parameters": []
+                                      },
+                                      "fields": {
+                                        "SUBROUTINE_NAME": "cnc_internalInit"
+                                      }
+                                    }
                                   }
                                 }
                               }
@@ -6657,7 +6670,7 @@
         "type": "subroutineBlock",
         "id": "r6o0ZZ%ugf2BB@V-]-6$",
         "x": 0,
-        "y": 14161,
+        "y": 14582,
         "extraState": {
           "subroutineName": "cnc_resetHacker",
           "parameters": [
@@ -7083,7 +7096,7 @@
         "type": "subroutineBlock",
         "id": "Cd]Z-yaELn*:|vxYv,sO",
         "x": 0,
-        "y": 23711,
+        "y": 24132,
         "extraState": {
           "subroutineName": "cnc_internalInit",
           "parameters": []
@@ -7828,41 +7841,10 @@
                                                                                   "inputs": {
                                                                                     "VALUE-0": {
                                                                                       "block": {
-                                                                                        "type": "Add",
-                                                                                        "id": "Q}Fi#mZc+cG9rFLbw?KS",
-                                                                                        "inputs": {
-                                                                                          "VALUE-0": {
-                                                                                            "block": {
-                                                                                              "type": "GetVariable",
-                                                                                              "id": "T44`%Lc`j7$BT4G%iMFO",
-                                                                                              "inputs": {
-                                                                                                "VALUE-0": {
-                                                                                                  "block": {
-                                                                                                    "type": "variableReferenceBlock",
-                                                                                                    "id": "4S{RJcyWVcm#t4TzjS6!",
-                                                                                                    "extraState": {
-                                                                                                      "isObjectVar": false
-                                                                                                    },
-                                                                                                    "fields": {
-                                                                                                      "OBJECTTYPE": "Global",
-                                                                                                      "VAR": {
-                                                                                                        "id": "CVF.L3Kz4B:XbsBSlTJk"
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
-                                                                                                }
-                                                                                              }
-                                                                                            }
-                                                                                          },
-                                                                                          "VALUE-1": {
-                                                                                            "block": {
-                                                                                              "type": "Number",
-                                                                                              "id": "(::v92Vi/.8?qqd[iC/4",
-                                                                                              "fields": {
-                                                                                                "NUM": 1
-                                                                                              }
-                                                                                            }
-                                                                                          }
+                                                                                        "type": "Number",
+                                                                                        "id": "(::v92Vi/.8?qqd[iC/4",
+                                                                                        "fields": {
+                                                                                          "NUM": 0
                                                                                         }
                                                                                       }
                                                                                     }
@@ -8137,7 +8119,7 @@
         "type": "subroutineBlock",
         "id": "q[4%+MN9x(?VN*`JW[3y",
         "x": 0,
-        "y": 13718,
+        "y": 14139,
         "extraState": {
           "subroutineName": "cnc_initPlayerVariables",
           "parameters": [
@@ -8303,7 +8285,7 @@
         "type": "subroutineBlock",
         "id": "@oMSN/|,@M*Dtb0D6q3m",
         "x": 0,
-        "y": 25473,
+        "y": 25878,
         "extraState": {
           "subroutineName": "cnc_initMap",
           "parameters": []
@@ -18383,7 +18365,7 @@
         "type": "subroutineBlock",
         "id": "/edF|:dH*;U-WM=FD,^[",
         "x": 0,
-        "y": 16194,
+        "y": 16615,
         "extraState": {
           "subroutineName": "cnc_addMcom",
           "parameters": [
@@ -18696,7 +18678,7 @@
         "type": "subroutineBlock",
         "id": "=I^N}bSO++YG0v,=}qCp",
         "x": 0,
-        "y": 20598,
+        "y": 21019,
         "extraState": {
           "subroutineName": "cnc_nextMcom",
           "parameters": [
@@ -19116,7 +19098,7 @@
         "type": "subroutineBlock",
         "id": ";NFKLA|7uk~Om$PcC([H",
         "x": 0,
-        "y": 14770,
+        "y": 15191,
         "extraState": {
           "subroutineName": "cnc_updateCurrentMcom",
           "parameters": [
@@ -19499,7 +19481,7 @@
         "type": "subroutineBlock",
         "id": "g@dFsO6ng8QN5Mcq3Mm*",
         "x": 0,
-        "y": 15492,
+        "y": 15913,
         "extraState": {
           "subroutineName": "cnc_endGameMode",
           "parameters": []
@@ -19772,7 +19754,7 @@
         "type": "subroutineBlock",
         "id": "x$AuTfpK!ygCqx[3=)3m",
         "x": 0,
-        "y": 15210,
+        "y": 15631,
         "extraState": {
           "subroutineName": "cnc_removeTickets",
           "parameters": [
@@ -19847,7 +19829,7 @@
         "type": "subroutineBlock",
         "id": "wQ3mz@`EV/r#J%22:gJB",
         "x": 0,
-        "y": 21233,
+        "y": 21654,
         "extraState": {
           "subroutineName": "cnc_executeEverySecond",
           "parameters": []
@@ -20244,7 +20226,7 @@
         "type": "subroutineBlock",
         "id": "suPX}u4zs44.`q)h2B#;",
         "x": 0,
-        "y": 18714,
+        "y": 19135,
         "extraState": {
           "subroutineName": "cnc_updatePreparationIcon",
           "parameters": [
@@ -20869,7 +20851,7 @@
         "type": "subroutineBlock",
         "id": "5vbXUjIDlQk^iQj$E8ay",
         "x": 0,
-        "y": 22106,
+        "y": 22527,
         "extraState": {
           "subroutineName": "cnc_displayMessages",
           "parameters": [
@@ -22170,7 +22152,7 @@
         "type": "subroutineBlock",
         "id": "[FyY8dl/YXnQlV4ssCEQ",
         "x": 0,
-        "y": 16685,
+        "y": 17106,
         "extraState": {
           "subroutineName": "cnc_updateHackerPosition",
           "parameters": [
@@ -22497,7 +22479,7 @@
         "type": "subroutineBlock",
         "id": "j/9?@OdnI7|+^[@gxTG+",
         "x": 0,
-        "y": 17972,
+        "y": 18393,
         "extraState": {
           "subroutineName": "cnc_hackerActions",
           "parameters": [
@@ -23108,7 +23090,7 @@
         "type": "subroutineBlock",
         "id": "aWJZ7Otv+EmP1~b/($X3",
         "x": 0,
-        "y": 17066,
+        "y": 17487,
         "extraState": {
           "subroutineName": "cnc_initIcons",
           "parameters": []
@@ -23301,7 +23283,7 @@
         "type": "subroutineBlock",
         "id": "rzq0%k][gcLfIM~M)VKw",
         "x": 0,
-        "y": 19799,
+        "y": 20220,
         "extraState": {
           "subroutineName": "cnc_updateIcon",
           "parameters": [
@@ -23690,7 +23672,7 @@
         "type": "subroutineBlock",
         "id": "d+qkg6$nuaZ~tBe(TL^w",
         "x": 0,
-        "y": 17399,
+        "y": 17820,
         "extraState": {
           "subroutineName": "cnc_tick",
           "parameters": []
@@ -23933,13 +23915,13 @@
         "type": "subroutineBlock",
         "id": "5C;ZNg,%#$CQ1.uiVM%@",
         "x": 0,
-        "y": 12355,
+        "y": 12725,
         "extraState": {
-          "subroutineName": "tick",
+          "subroutineName": "common_tick",
           "parameters": []
         },
         "fields": {
-          "SUBROUTINE_NAME": "tick"
+          "SUBROUTINE_NAME": "common_tick"
         },
         "inputs": {
           "ACTIONS": {
@@ -24050,7 +24032,7 @@
         "type": "SetVariableAtIndex",
         "id": "UC%.hcb;LFp,K+T.MoW*",
         "x": 0,
-        "y": 10130,
+        "y": 0,
         "inputs": {
           "VALUE-0": {
             "block": {
@@ -24160,6 +24142,130 @@
                       "id": "w3i{m=6=R7N8Ch-+Y.JY",
                       "fields": {
                         "TEXT": "Frontlines"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "subroutineBlock",
+        "id": "HCC?T~ov#Y$lP.bn~$W`",
+        "x": 0,
+        "y": 11544,
+        "extraState": {
+          "subroutineName": "common_disableCapturePoints",
+          "parameters": []
+        },
+        "fields": {
+          "SUBROUTINE_NAME": "common_disableCapturePoints"
+        },
+        "inputs": {
+          "ACTIONS": {
+            "block": {
+              "type": "ForVariable",
+              "id": "K+`GByvnzXcj`DMA2TfI",
+              "inputs": {
+                "VALUE-0": {
+                  "block": {
+                    "type": "variableReferenceBlock",
+                    "id": "5lUu#herMSHu4a{=[whB",
+                    "extraState": {
+                      "isObjectVar": false
+                    },
+                    "fields": {
+                      "OBJECTTYPE": "Global",
+                      "VAR": {
+                        "id": "CGT=$6T7595x=?.AZ~f)"
+                      }
+                    }
+                  }
+                },
+                "VALUE-1": {
+                  "block": {
+                    "type": "Number",
+                    "id": "8itTOD0M3Bzn-_yG[4KX",
+                    "fields": {
+                      "NUM": 0
+                    }
+                  }
+                },
+                "VALUE-2": {
+                  "block": {
+                    "type": "CountOf",
+                    "id": "7_aB-g[C1L|n2xt_2@h]",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "AllCapturePoints",
+                          "id": "y1yqgu,47Y{K@:Jw@1rH"
+                        }
+                      }
+                    }
+                  }
+                },
+                "VALUE-3": {
+                  "block": {
+                    "type": "Number",
+                    "id": "WE.5K;*Yv:7={^k,yuSl",
+                    "fields": {
+                      "NUM": 1
+                    }
+                  }
+                },
+                "DO": {
+                  "block": {
+                    "type": "EnableObjective",
+                    "id": "mzX0}3bpta:heVAuV-HU",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "ValueInArray",
+                          "id": "31*+|KjB*XqvW5fjtBTr",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "AllCapturePoints",
+                                "id": "YQ}Udub2SiM?LB.EIDlJ"
+                              }
+                            },
+                            "VALUE-1": {
+                              "block": {
+                                "type": "GetVariable",
+                                "id": "?]/hm01-cC=eF7ld)f6j",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "r=ihL{4sc?80;Hi3KvuX",
+                                      "extraState": {
+                                        "isObjectVar": false
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Global",
+                                        "VAR": {
+                                          "id": "CGT=$6T7595x=?.AZ~f)"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "Boolean",
+                          "id": "xu6X3Q)y-M~{qiFl*d{$",
+                          "fields": {
+                            "BOOL": "FALSE"
+                          }
+                        }
                       }
                     }
                   }
@@ -24300,6 +24406,11 @@
     {
       "name": "cnc_tmpWorldIcon",
       "id": "LX_emMc)]-J$OVMtQLBv",
+      "type": "Global"
+    },
+    {
+      "name": "Counter",
+      "id": "CGT=$6T7595x=?.AZ~f)",
       "type": "Global"
     }
   ]
