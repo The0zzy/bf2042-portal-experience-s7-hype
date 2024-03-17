@@ -5145,19 +5145,42 @@
               "next": {
                 "block": {
                   "type": "DisplayCustomNotificationMessage",
-                  "id": "7`7c{[uX/;zZDVxDQ[+A",
+                  "id": "GIWvcUI#4lU#J7Cq+uyT",
                   "inputs": {
                     "VALUE-0": {
                       "block": {
                         "type": "Message",
-                        "id": "{f1^:YQNMwi~(/o]=$L`",
+                        "id": "E~zQnQ.SO|73q%ZG!8QX",
                         "inputs": {
                           "VALUE-0": {
                             "block": {
                               "type": "Text",
-                              "id": "IjPr}{kt(7X+2[9!_`LA",
+                              "id": "HVxMlW~83d4LFQ;H;t!G",
                               "fields": {
-                                "TEXT": "Rolling..."
+                                "TEXT": "Time remaining: {}"
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "GetVariable",
+                              "id": "3Pa9Vao/f3nR$v%~ONpr",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "variableReferenceBlock",
+                                    "id": "4[D?CcLgy@!^[Wj3lonl",
+                                    "extraState": {
+                                      "isObjectVar": false
+                                    },
+                                    "fields": {
+                                      "OBJECTTYPE": "Global",
+                                      "VAR": {
+                                        "id": "DacXkGp{TrG~[d%lBj!z"
+                                      }
+                                    }
+                                  }
+                                }
                               }
                             }
                           }
@@ -5167,17 +5190,17 @@
                     "VALUE-1": {
                       "block": {
                         "type": "CustomMessagesItem",
-                        "id": "]y[IBU@EwPOV/qhS*?})",
+                        "id": "I@Uk5Gj[u?n[E)E=ccMo",
                         "fields": {
                           "VALUE-0": "CustomMessages",
-                          "VALUE-1": "MessageText1"
+                          "VALUE-1": "MessageText2"
                         }
                       }
                     },
                     "VALUE-2": {
                       "block": {
                         "type": "Number",
-                        "id": "_v:0LVHI,40*6Ho,#rQK",
+                        "id": "am]0~IkBaUr`*mbgANgz",
                         "fields": {
                           "NUM": -1
                         }
@@ -5186,148 +5209,177 @@
                   },
                   "next": {
                     "block": {
-                      "type": "DisplayCustomNotificationMessage",
-                      "id": "GIWvcUI#4lU#J7Cq+uyT",
+                      "type": "If",
+                      "id": "P$^k96r#iGY7hI9m6f-?",
+                      "extraState": {
+                        "elseif": 0,
+                        "else": 1
+                      },
                       "inputs": {
                         "VALUE-0": {
                           "block": {
-                            "type": "Message",
-                            "id": "E~zQnQ.SO|73q%ZG!8QX",
+                            "type": "Equals",
+                            "id": "xCwR9*N!-JIr,!1klHgj",
                             "inputs": {
                               "VALUE-0": {
                                 "block": {
-                                  "type": "Text",
-                                  "id": "HVxMlW~83d4LFQ;H;t!G",
-                                  "fields": {
-                                    "TEXT": "Time remaining: {}"
-                                  }
-                                }
-                              },
-                              "VALUE-1": {
-                                "block": {
-                                  "type": "GetVariable",
-                                  "id": "3Pa9Vao/f3nR$v%~ONpr",
+                                  "type": "Modulo",
+                                  "id": "%B/NN2lkkJWY5T6@mcN_",
                                   "inputs": {
                                     "VALUE-0": {
                                       "block": {
-                                        "type": "variableReferenceBlock",
-                                        "id": "4[D?CcLgy@!^[Wj3lonl",
-                                        "extraState": {
-                                          "isObjectVar": false
-                                        },
-                                        "fields": {
-                                          "OBJECTTYPE": "Global",
-                                          "VAR": {
-                                            "id": "DacXkGp{TrG~[d%lBj!z"
+                                        "type": "GetVariable",
+                                        "id": "_OZfcTAZ?SYYtZb1EQ+i",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "variableReferenceBlock",
+                                              "id": "d{UuPl(FF];}Z:zi7!%0",
+                                              "extraState": {
+                                                "isObjectVar": false
+                                              },
+                                              "fields": {
+                                                "OBJECTTYPE": "Global",
+                                                "VAR": {
+                                                  "id": "xt2rg#5jNhH@42)1Dr;@"
+                                                }
+                                              }
+                                            }
                                           }
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "Pp1-Bb$kpmsL1[r99I7W",
+                                        "fields": {
+                                          "NUM": 2
                                         }
                                       }
                                     }
                                   }
                                 }
-                              }
-                            }
-                          }
-                        },
-                        "VALUE-1": {
-                          "block": {
-                            "type": "CustomMessagesItem",
-                            "id": "I@Uk5Gj[u?n[E)E=ccMo",
-                            "fields": {
-                              "VALUE-0": "CustomMessages",
-                              "VALUE-1": "MessageText2"
-                            }
-                          }
-                        },
-                        "VALUE-2": {
-                          "block": {
-                            "type": "Number",
-                            "id": "am]0~IkBaUr`*mbgANgz",
-                            "fields": {
-                              "NUM": -1
-                            }
-                          }
-                        }
-                      },
-                      "next": {
-                        "block": {
-                          "type": "Wait",
-                          "id": "9zN%brjU|mH%#1ruKNZ*",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "Number",
-                                "id": "OVt|%Un}VXjTy,%g+-WE",
-                                "fields": {
-                                  "NUM": 0.33
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "hI^:oZF?PPynm:bPF:Lq",
+                                  "fields": {
+                                    "NUM": 0
+                                  }
                                 }
                               }
                             }
-                          },
-                          "next": {
-                            "block": {
-                              "type": "DisplayCustomNotificationMessage",
-                              "id": "~=xlI](L;?s!e/UP,j%+",
-                              "inputs": {
-                                "VALUE-0": {
-                                  "block": {
-                                    "type": "Message",
-                                    "id": "1obAq#6hc2$+~M}o$qyW",
-                                    "inputs": {
-                                      "VALUE-0": {
-                                        "block": {
-                                          "type": "Text",
-                                          "id": "B;+5+^a$xKP7+nyCXV9D",
-                                          "fields": {
-                                            "TEXT": "Rolling... {}"
-                                          }
+                          }
+                        },
+                        "DO": {
+                          "block": {
+                            "type": "DisplayCustomNotificationMessage",
+                            "id": "7`7c{[uX/;zZDVxDQ[+A",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "Message",
+                                  "id": "{f1^:YQNMwi~(/o]=$L`",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Text",
+                                        "id": "IjPr}{kt(7X+2[9!_`LA",
+                                        "fields": {
+                                          "TEXT": "Rolling..."
                                         }
-                                      },
-                                      "VALUE-1": {
-                                        "block": {
-                                          "type": "ValueInArray",
-                                          "id": "62GglPO;@X9JO7sPVhwb",
-                                          "inputs": {
-                                            "VALUE-0": {
-                                              "block": {
-                                                "type": "GetVariable",
-                                                "id": "}%4Li9DpVHjVv/C%|3.T",
-                                                "inputs": {
-                                                  "VALUE-0": {
-                                                    "block": {
-                                                      "type": "variableReferenceBlock",
-                                                      "id": "b_0EiV9bssg61955h3-7",
-                                                      "extraState": {
-                                                        "isObjectVar": false
-                                                      },
-                                                      "fields": {
-                                                        "OBJECTTYPE": "Global",
-                                                        "VAR": {
-                                                          "id": "vi=f=HH)wx-[N/5zpJ;V"
-                                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "CustomMessagesItem",
+                                  "id": "]y[IBU@EwPOV/qhS*?})",
+                                  "fields": {
+                                    "VALUE-0": "CustomMessages",
+                                    "VALUE-1": "MessageText1"
+                                  }
+                                }
+                              },
+                              "VALUE-2": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "_v:0LVHI,40*6Ho,#rQK",
+                                  "fields": {
+                                    "NUM": -1
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ELSE": {
+                          "block": {
+                            "type": "DisplayCustomNotificationMessage",
+                            "id": "~=xlI](L;?s!e/UP,j%+",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "Message",
+                                  "id": "1obAq#6hc2$+~M}o$qyW",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Text",
+                                        "id": "B;+5+^a$xKP7+nyCXV9D",
+                                        "fields": {
+                                          "TEXT": "Rolling... {}"
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "ValueInArray",
+                                        "id": "62GglPO;@X9JO7sPVhwb",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "GetVariable",
+                                              "id": "}%4Li9DpVHjVv/C%|3.T",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "variableReferenceBlock",
+                                                    "id": "b_0EiV9bssg61955h3-7",
+                                                    "extraState": {
+                                                      "isObjectVar": false
+                                                    },
+                                                    "fields": {
+                                                      "OBJECTTYPE": "Global",
+                                                      "VAR": {
+                                                        "id": "vi=f=HH)wx-[N/5zpJ;V"
                                                       }
                                                     }
                                                   }
                                                 }
                                               }
-                                            },
-                                            "VALUE-1": {
-                                              "block": {
-                                                "type": "GetVariable",
-                                                "id": "C/$Jry2h7@a17?wc-G%e",
-                                                "inputs": {
-                                                  "VALUE-0": {
-                                                    "block": {
-                                                      "type": "variableReferenceBlock",
-                                                      "id": "%~bEu?w|htNvyty!M9lA",
-                                                      "extraState": {
-                                                        "isObjectVar": false
-                                                      },
-                                                      "fields": {
-                                                        "OBJECTTYPE": "Global",
-                                                        "VAR": {
-                                                          "id": "VevQJTl:.GsJFtCB7cxJ"
-                                                        }
+                                            }
+                                          },
+                                          "VALUE-1": {
+                                            "block": {
+                                              "type": "GetVariable",
+                                              "id": "C/$Jry2h7@a17?wc-G%e",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "variableReferenceBlock",
+                                                    "id": "%~bEu?w|htNvyty!M9lA",
+                                                    "extraState": {
+                                                      "isObjectVar": false
+                                                    },
+                                                    "fields": {
+                                                      "OBJECTTYPE": "Global",
+                                                      "VAR": {
+                                                        "id": "VevQJTl:.GsJFtCB7cxJ"
                                                       }
                                                     }
                                                   }
@@ -5339,24 +5391,24 @@
                                       }
                                     }
                                   }
-                                },
-                                "VALUE-1": {
-                                  "block": {
-                                    "type": "CustomMessagesItem",
-                                    "id": "k;-PD{TZcCa#zbg9Yh)d",
-                                    "fields": {
-                                      "VALUE-0": "CustomMessages",
-                                      "VALUE-1": "MessageText1"
-                                    }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "CustomMessagesItem",
+                                  "id": "k;-PD{TZcCa#zbg9Yh)d",
+                                  "fields": {
+                                    "VALUE-0": "CustomMessages",
+                                    "VALUE-1": "MessageText1"
                                   }
-                                },
-                                "VALUE-2": {
-                                  "block": {
-                                    "type": "Number",
-                                    "id": "-c+PPVT}QnmVJ[_t1*w:",
-                                    "fields": {
-                                      "NUM": -1
-                                    }
+                                }
+                              },
+                              "VALUE-2": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "-c+PPVT}QnmVJ[_t1*w:",
+                                  "fields": {
+                                    "NUM": -1
                                   }
                                 }
                               }
@@ -5376,7 +5428,7 @@
         "type": "subroutineBlock",
         "id": "D`1V6tGPqZ`/~FvU]X[+",
         "x": 0,
-        "y": 11523,
+        "y": 11608,
         "extraState": {
           "subroutineName": "common_executeEverySecond",
           "parameters": []
@@ -5678,7 +5730,7 @@
         "type": "subroutineBlock",
         "id": "ce:3d4$jA2`qIG?}rzrE",
         "x": 0,
-        "y": 10796,
+        "y": 10881,
         "extraState": {
           "subroutineName": "displayPrepareMessage",
           "parameters": []
@@ -5958,7 +6010,7 @@
         "type": "subroutineBlock",
         "id": "X*VJwcjIz:Z~5w68+TsI",
         "x": 0,
-        "y": 12792,
+        "y": 12877,
         "extraState": {
           "subroutineName": "cq_init",
           "parameters": []
@@ -6058,7 +6110,7 @@
         "type": "subroutineBlock",
         "id": "mZVCnv?b^4tiZcr^dZf}",
         "x": 0,
-        "y": 13176,
+        "y": 13261,
         "extraState": {
           "subroutineName": "cnc_init",
           "parameters": []
@@ -6244,7 +6296,7 @@
         "type": "subroutineBlock",
         "id": "r6o0ZZ%ugf2BB@V-]-6$",
         "x": 0,
-        "y": 14191,
+        "y": 14276,
         "extraState": {
           "subroutineName": "cnc_resetHacker",
           "parameters": [
@@ -6670,7 +6722,7 @@
         "type": "subroutineBlock",
         "id": "Cd]Z-yaELn*:|vxYv,sO",
         "x": 0,
-        "y": 23741,
+        "y": 23826,
         "extraState": {
           "subroutineName": "cnc_internalInit",
           "parameters": []
@@ -7693,7 +7745,7 @@
         "type": "subroutineBlock",
         "id": "q[4%+MN9x(?VN*`JW[3y",
         "x": 0,
-        "y": 13748,
+        "y": 13833,
         "extraState": {
           "subroutineName": "cnc_initPlayerVariables",
           "parameters": [
@@ -7859,7 +7911,7 @@
         "type": "subroutineBlock",
         "id": "@oMSN/|,@M*Dtb0D6q3m",
         "x": 0,
-        "y": 25487,
+        "y": 25572,
         "extraState": {
           "subroutineName": "cnc_initMap",
           "parameters": []
@@ -17939,7 +17991,7 @@
         "type": "subroutineBlock",
         "id": "/edF|:dH*;U-WM=FD,^[",
         "x": 0,
-        "y": 16224,
+        "y": 16309,
         "extraState": {
           "subroutineName": "cnc_addMcom",
           "parameters": [
@@ -18252,7 +18304,7 @@
         "type": "subroutineBlock",
         "id": "=I^N}bSO++YG0v,=}qCp",
         "x": 0,
-        "y": 20628,
+        "y": 20713,
         "extraState": {
           "subroutineName": "cnc_nextMcom",
           "parameters": [
@@ -18672,7 +18724,7 @@
         "type": "subroutineBlock",
         "id": ";NFKLA|7uk~Om$PcC([H",
         "x": 0,
-        "y": 14800,
+        "y": 14885,
         "extraState": {
           "subroutineName": "cnc_updateCurrentMcom",
           "parameters": [
@@ -19055,7 +19107,7 @@
         "type": "subroutineBlock",
         "id": "g@dFsO6ng8QN5Mcq3Mm*",
         "x": 0,
-        "y": 15522,
+        "y": 15607,
         "extraState": {
           "subroutineName": "cnc_endGameMode",
           "parameters": []
@@ -19328,7 +19380,7 @@
         "type": "subroutineBlock",
         "id": "x$AuTfpK!ygCqx[3=)3m",
         "x": 0,
-        "y": 15240,
+        "y": 15325,
         "extraState": {
           "subroutineName": "cnc_removeTickets",
           "parameters": [
@@ -19403,7 +19455,7 @@
         "type": "subroutineBlock",
         "id": "wQ3mz@`EV/r#J%22:gJB",
         "x": 0,
-        "y": 21263,
+        "y": 21348,
         "extraState": {
           "subroutineName": "cnc_executeEverySecond",
           "parameters": []
@@ -19800,7 +19852,7 @@
         "type": "subroutineBlock",
         "id": "suPX}u4zs44.`q)h2B#;",
         "x": 0,
-        "y": 18744,
+        "y": 18829,
         "extraState": {
           "subroutineName": "cnc_updatePreparationIcon",
           "parameters": [
@@ -20425,7 +20477,7 @@
         "type": "subroutineBlock",
         "id": "5vbXUjIDlQk^iQj$E8ay",
         "x": 0,
-        "y": 22136,
+        "y": 22221,
         "extraState": {
           "subroutineName": "cnc_displayMessages",
           "parameters": [
@@ -21726,7 +21778,7 @@
         "type": "subroutineBlock",
         "id": "[FyY8dl/YXnQlV4ssCEQ",
         "x": 0,
-        "y": 16715,
+        "y": 16800,
         "extraState": {
           "subroutineName": "cnc_updateHackerPosition",
           "parameters": [
@@ -22053,7 +22105,7 @@
         "type": "subroutineBlock",
         "id": "j/9?@OdnI7|+^[@gxTG+",
         "x": 0,
-        "y": 18002,
+        "y": 18087,
         "extraState": {
           "subroutineName": "cnc_hackerActions",
           "parameters": [
@@ -22664,7 +22716,7 @@
         "type": "subroutineBlock",
         "id": "aWJZ7Otv+EmP1~b/($X3",
         "x": 0,
-        "y": 17096,
+        "y": 17181,
         "extraState": {
           "subroutineName": "cnc_initIcons",
           "parameters": []
@@ -22857,7 +22909,7 @@
         "type": "subroutineBlock",
         "id": "rzq0%k][gcLfIM~M)VKw",
         "x": 0,
-        "y": 19829,
+        "y": 19914,
         "extraState": {
           "subroutineName": "cnc_updateIcon",
           "parameters": [
@@ -23246,7 +23298,7 @@
         "type": "subroutineBlock",
         "id": "d+qkg6$nuaZ~tBe(TL^w",
         "x": 0,
-        "y": 17429,
+        "y": 17514,
         "extraState": {
           "subroutineName": "cnc_tick",
           "parameters": []
@@ -23489,7 +23541,7 @@
         "type": "subroutineBlock",
         "id": "5C;ZNg,%#$CQ1.uiVM%@",
         "x": 0,
-        "y": 12334,
+        "y": 12419,
         "extraState": {
           "subroutineName": "common_tick",
           "parameters": []
@@ -23729,7 +23781,7 @@
         "type": "subroutineBlock",
         "id": "HCC?T~ov#Y$lP.bn~$W`",
         "x": 0,
-        "y": 11153,
+        "y": 11238,
         "extraState": {
           "subroutineName": "common_disableCapturePoints",
           "parameters": []
