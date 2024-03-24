@@ -16,7 +16,7 @@
                 "isOngoingEvent": false
               },
               "fields": {
-                "NAME": "common_onGameModeStarted",
+                "NAME": "comn_onGameModeStarted",
                 "EVENTTYPE": "OnGameModeStarted"
               },
               "inputs": {
@@ -771,7 +771,7 @@
                     "isOngoingEvent": true
                   },
                   "fields": {
-                    "NAME": "common_secondEmulationReset",
+                    "NAME": "comn_secondEmulationReset",
                     "EVENTTYPE": "Ongoing",
                     "OBJECTTYPE": "Global"
                   },
@@ -865,7 +865,7 @@
                         "isOngoingEvent": true
                       },
                       "fields": {
-                        "NAME": "common_secondEmulationEven",
+                        "NAME": "comn_secondEmulationEven",
                         "EVENTTYPE": "Ongoing",
                         "OBJECTTYPE": "Global"
                       },
@@ -957,7 +957,7 @@
                             "isOngoingEvent": true
                           },
                           "fields": {
-                            "NAME": "common_secondEmulationOdd",
+                            "NAME": "comn_secondEmulationOdd",
                             "EVENTTYPE": "Ongoing",
                             "OBJECTTYPE": "Global"
                           },
@@ -1057,7 +1057,7 @@
                                 "isOngoingEvent": true
                               },
                               "fields": {
-                                "NAME": "common_displaySelectedMode",
+                                "NAME": "comn_startPreparationPhase",
                                 "EVENTTYPE": "Ongoing",
                                 "OBJECTTYPE": "Global"
                               },
@@ -1327,7 +1327,7 @@
                                     "isOngoingEvent": true
                                   },
                                   "fields": {
-                                    "NAME": "common_startGameMode",
+                                    "NAME": "comn_startGameMode",
                                     "EVENTTYPE": "Ongoing",
                                     "OBJECTTYPE": "Global"
                                   },
@@ -2005,7 +2005,7 @@
                                         "isOngoingEvent": true
                                       },
                                       "fields": {
-                                        "NAME": "common_tickLoop1",
+                                        "NAME": "comn_tickLoop1",
                                         "EVENTTYPE": "Ongoing",
                                         "OBJECTTYPE": "Global"
                                       },
@@ -2266,7 +2266,7 @@
                                             "isOngoingEvent": true
                                           },
                                           "fields": {
-                                            "NAME": "common_tickLoop2",
+                                            "NAME": "comn_tickLoop2",
                                             "EVENTTYPE": "Ongoing",
                                             "OBJECTTYPE": "Global"
                                           },
@@ -2584,7 +2584,7 @@
                                                 "isOngoingEvent": true
                                               },
                                               "fields": {
-                                                "NAME": "common_tickLoop3",
+                                                "NAME": "comn_tickLoop3",
                                                 "EVENTTYPE": "Ongoing",
                                                 "OBJECTTYPE": "Global"
                                               },
@@ -2840,7 +2840,7 @@
                                                     "isOngoingEvent": true
                                                   },
                                                   "fields": {
-                                                    "NAME": "common_checkSwitchTeam",
+                                                    "NAME": "comn_switchTeam",
                                                     "EVENTTYPE": "Ongoing",
                                                     "OBJECTTYPE": "Player"
                                                   },
