@@ -44372,12 +44372,12 @@
       "type": "Player"
     },
     {
-      "name": "switchTeamCounter",
+      "name": "comn_switchTeamCounter",
       "id": ".g,@mt_kN#p~?HUv{42Q",
       "type": "Player"
     },
     {
-      "name": "hasSwitchedTeam",
+      "name": "comn_hasSwitchedTeam",
       "id": "sG[8Jyy3s:@YOXMcF@{Z",
       "type": "Player"
     },
@@ -44387,32 +44387,32 @@
       "type": "Player"
     },
     {
-      "name": "gameModes",
+      "name": "comn_gameModes",
       "id": "vi=f=HH)wx-[N/5zpJ;V",
       "type": "Global"
     },
     {
-      "name": "gameModeIndex",
+      "name": "comn_gameModeIndex",
       "id": "VevQJTl:.GsJFtCB7cxJ",
       "type": "Global"
     },
     {
-      "name": "gameModeDiceCounter",
+      "name": "comn_gameModeDiceCounter",
       "id": "DacXkGp{TrG~[d%lBj!z",
       "type": "Global"
     },
     {
-      "name": "gameModePrepareCounter",
+      "name": "comn_gameModePrepareCounter",
       "id": ":scq[Ii|w]r6L){cj+x{",
       "type": "Global"
     },
     {
-      "name": "secondEmulation",
+      "name": "comn_secondEmulation",
       "id": "xt2rg#5jNhH@42)1Dr;@",
       "type": "Global"
     },
     {
-      "name": "isPreparationPhase",
+      "name": "comn_isPreparationPhase",
       "id": "vz.rFT4]5t/Z:D*#Fn5V",
       "type": "Global"
     },
@@ -44422,17 +44422,17 @@
       "type": "Global"
     },
     {
-      "name": "tickArray",
+      "name": "comn_tickArray",
       "id": "p;1pgXnhu;YYtstT*{kf",
       "type": "Global"
     },
     {
-      "name": "enableSwitchTeam",
+      "name": "comn_enableSwitchTeam",
       "id": "m1YOF.l2(~a$~_jr9+]}",
       "type": "Global"
     },
     {
-      "name": "switchTeamTime",
+      "name": "comn_switchTeamTime",
       "id": "I{v/D)$}6)9`Z%6-|S(r",
       "type": "Global"
     },
@@ -44462,12 +44462,12 @@
       "type": "Global"
     },
     {
-      "name": "gameModeIndexArray",
+      "name": "comn_gameModeIndexArray",
       "id": "[{t;wj:vy=FmKdIOo{ds",
       "type": "Global"
     },
     {
-      "name": "loopIndex",
+      "name": "comn_loopIndex",
       "id": "*/OO(u7mRS29gMI|q`D`",
       "type": "Global"
     },
@@ -44522,7 +44522,7 @@
       "type": "Global"
     },
     {
-      "name": "enableTeamSwitch",
+      "name": "comn_enableTeamSwitch",
       "id": "s1%Sh*Q4Y[*9fC[^;CY)",
       "type": "Global"
     },
@@ -44562,7 +44562,7 @@
       "type": "TeamId"
     },
     {
-      "name": "opposingTeam",
+      "name": "comn_opposingTeam",
       "id": "@l,S[iX5,A1jW_h:{iY-",
       "type": "TeamId"
     },
